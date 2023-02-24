@@ -18,7 +18,7 @@ Template base para React Web App
 <br>
 
 <p align="center">
-  <img alt="rocketpay" src=".github/project.jpeg" width="100%">
+  <img alt="rocketpay" src=".github/cover.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
