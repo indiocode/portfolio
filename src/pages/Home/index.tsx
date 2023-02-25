@@ -4,6 +4,7 @@ import { Footer } from '~/components/Footer';
 import { Header } from '~/components/Header';
 
 import { About } from './components/About';
+import { Contact } from './components/Contact';
 import { Cover } from './components/Cover';
 import { Intents } from './components/Intents';
 import { Skills } from './components/Skills';
@@ -17,6 +18,7 @@ export function Home(): ReactElement {
 			<Intents />
 			<About />
 			<Skills />
+			<Contact />
 			<Footer />
 		</HomeContainer>
 	);

@@ -1,6 +1,8 @@
 export { default as CodeImage } from './code.svg';
 export { default as CoverToogle } from './cover-toggle.svg';
 export { default as CoverImage } from './cover.svg';
+export { default as ArrowIcon } from './icons/arrow.svg';
+export { default as CopyIcon } from './icons/copy.svg';
 export { default as CssIcon } from './icons/css.svg';
 export { default as DockerIcon } from './icons/docker.svg';
 export { default as DownloadIcon } from './icons/download.svg';
@@ -17,6 +19,7 @@ export { default as MysqlIcon } from './icons/mysql.svg';
 export { default as NodeIcon } from './icons/node.svg';
 export { default as PostgresIcon } from './icons/postgres.svg';
 export { default as ReactIcon } from './icons/react.svg';
+export { default as SendIcon } from './icons/send.svg';
 export { default as TypescriptIcon } from './icons/typescript.svg';
 export { default as WhatsappIcon } from './icons/whatsapp.svg';
 export { default as ProfileImage } from './profile.svg';
