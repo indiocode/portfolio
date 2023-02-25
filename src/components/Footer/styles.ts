@@ -2,6 +2,7 @@
 import styled from 'styled-components';
 
 export const FooterContainer = styled.footer`
+	margin-top: 10.1875rem;
 	height: 5.5rem;
 	background: ${({ theme }) => theme['dark-light']};
 	display: flex;

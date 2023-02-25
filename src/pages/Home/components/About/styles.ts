@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/explicit-function-return-type */
 import styled from 'styled-components';
 
-export const AboutContainer = styled.section`
+export const AboutContainer = styled.main`
 	margin: 0 auto;
 	max-width: 103.75rem;
 	width: 100%;

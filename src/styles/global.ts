@@ -26,9 +26,7 @@ export const GlobalStyle = createGlobalStyle`
       --webkit-font-smoothing: antialiased;
 
 
-      @media (max-width: 1920px) {
-        padding:  0 1.5rem;
-      }
+ 
     }
     
     body, input, textarea, button{
