@@ -11,7 +11,7 @@ export function Header(): ReactElement {
 						<a href="#">Home</a>
 					</li>
 					<li>
-						<a href="#">Sobre mim</a>
+						<a href="#about">Sobre mim</a>
 					</li>
 					<li>
 						<a href="#">Portfólio</a>

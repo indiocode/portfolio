@@ -22,7 +22,6 @@ export const BoxImage = styled.div`
 	flex-direction: column;
 	align-items: flex-start;
 	flex: 1;
-	gap: 4.5rem;
 
 	img {
 		width: 34.7469rem;
@@ -31,7 +30,7 @@ export const BoxImage = styled.div`
 `;
 
 export const BoxToggle = styled.div`
-	margin: 0 auto;
+	padding-top: 4.5rem;
 	max-width: 34.7469rem;
 	width: 100%;
 	display: flex;
@@ -39,7 +38,7 @@ export const BoxToggle = styled.div`
 
 	img {
 		width: 2.8106rem;
-		height: 77px;
+		height: 4.8125rem;
 	}
 `;
 
@@ -78,9 +77,6 @@ export const BoxResume = styled.div`
 	display: flex;
 	flex-direction: column;
 	gap: 1rem;
-
-	/* position: absolute;
-	right: 0; */
 `;
 
 export const UploadButton = styled.div`

@@ -32,7 +32,7 @@ export function Cover(): ReactElement {
 						<h1>Jhollyfer</h1>
 						<h1>Rodrigues</h1>
 					</div>
-					<p>Front-end & Back-end developer</p>
+					<p>Software Engineer</p>
 					<BoxIcons>
 						<img
 							src={LinkedinIcon}
@@ -50,6 +50,13 @@ export function Cover(): ReactElement {
 						src={CoverImage}
 						alt="Cover Image"
 					/>
+
+					<BoxToggle>
+						<img
+							src={CoverToogle}
+							alt="Cover Toggle"
+						/>
+					</BoxToggle>
 				</BoxImage>
 				<BoxResume>
 					<UploadButton>
@@ -75,13 +82,6 @@ export function Cover(): ReactElement {
 					</WhatsappButton>
 				</BoxResume>
 			</BoxMain>
-
-			<BoxToggle>
-				<img
-					src={CoverToogle}
-					alt="Cover Toggle"
-				/>
-			</BoxToggle>
 		</CoverContainer>
 	);
 }

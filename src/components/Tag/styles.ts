@@ -17,4 +17,6 @@ export const TagContainer = styled.span<TagProps>`
 	background: ${({ theme }) => theme['dark-light']};
 	border-radius: 16px;
 	color: ${({ variant }) => TAG_TYPES[variant]};
+	font-weight: 700;
+	font-size: 1.25rem;
 `;

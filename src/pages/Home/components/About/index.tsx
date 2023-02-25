@@ -7,7 +7,7 @@ import { AboutContainer, Box, BoxDetail, BoxParagraph } from './styles';
 
 export function About(): ReactElement {
 	return (
-		<AboutContainer>
+		<AboutContainer id="about">
 			<img
 				src={ProfileImage}
 				alt="ProfileImage"
@@ -17,7 +17,7 @@ export function About(): ReactElement {
 				<Tag variant="primary">🧐 Sobre mim</Tag>
 
 				<BoxDetail>
-					<h1>Marcos Jhollyfer Rodrigues </h1>
+					<h1>Jhollyfer Rodrigues </h1>
 					<span>indio.dev</span>
 
 					<BoxParagraph>
@@ -27,7 +27,6 @@ export function About(): ReactElement {
 						</p>
 
 						<div>
-							{' '}
 							<p>
 								👨‍💻 Há mais de 5 anos desenvolvendo e programando interfaces com
 								JavaScript, React JS e Typescript.
