@@ -14,7 +14,7 @@ export const ContactContainer = styled.section`
 
 	h1 {
 		padding-top: 1.5rem;
-		padding-bottom: 8rem;
+		padding-bottom: 4.3125rem;
 		font-weight: 800;
 		font-size: 3rem;
 	}

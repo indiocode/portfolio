@@ -8,6 +8,7 @@ import { Contact } from './components/Contact';
 import { Cover } from './components/Cover';
 import { Intents } from './components/Intents';
 import { Skills } from './components/Skills';
+import { Timeline } from './components/Timeline';
 import { HomeContainer } from './styles';
 
 export function Home(): ReactElement {
@@ -18,6 +19,7 @@ export function Home(): ReactElement {
 			<Intents />
 			<About />
 			<Skills />
+			<Timeline />
 			<Contact />
 			<Footer />
 		</HomeContainer>
