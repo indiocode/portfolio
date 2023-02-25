@@ -6,6 +6,8 @@ export const defaultTheme = {
 	purple: '#A480F5',
 	pink: '#FB80C1',
 	blue: '#77EED7',
+	'blue-01': '#31E1F7',
+
 	success: 'rgba(74, 226, 144, 0.3)',
 	'dark-light': '#171717',
 	'green-02': '#88FF9A',

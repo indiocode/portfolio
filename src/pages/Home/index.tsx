@@ -1,15 +1,14 @@
 import type { ReactElement } from 'react';
 
-import { Header } from '~/components/Header';
-
+import { About } from './components/About';
 import { Cover } from './components/Cover';
 import { HomeContainer } from './styles';
 
 export function Home(): ReactElement {
 	return (
 		<HomeContainer>
-			<Header />
 			<Cover />
+			<About />
 		</HomeContainer>
 	);
 }

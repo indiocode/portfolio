@@ -1,18 +1,16 @@
-import { cleanup, render } from '@testing-library/react';
+import { cleanup, render, screen } from '@testing-library/react';
 import { afterEach, describe, expect, it } from 'vitest';
 
-import { Avatar } from '~/components/Avatar';
+import { Header } from '~/components/Header';
 
 describe('Avatar Component', () => {
 	afterEach(cleanup);
 
 	it('must be able to render an avatar with a specific size', () => {
-		const { getByRole } = render(<Avatar size={150} />);
+		const { getByRole } = render(<Header />);
 
-		expect(getByRole('img')).toHaveAttribute('size');
+		expect(getByRole('navigation')).toBeInTheDocument();
 
-		expect(getByRole('img').getAttribute('size')).toBe(String(150));
-
-		// screen.debug();
+		screen.debug();
 	});
 });

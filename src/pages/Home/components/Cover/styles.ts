@@ -2,13 +2,45 @@
 import styled from 'styled-components';
 
 export const CoverContainer = styled.section`
-	position: relative;
-	top: 8.75rem;
 	flex: 1;
 	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	max-width: 103.75rem;
+	width: 100%;
+	gap: 4.5rem;
+`;
+
+export const BoxMain = styled.div`
+	display: flex;
 	align-items: center;
-	padding: 0 8.75rem;
 	gap: 8.125rem;
+`;
+
+export const BoxImage = styled.div`
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	flex: 1;
+	gap: 4.5rem;
+
+	img {
+		width: 34.7469rem;
+		height: 37.3881rem;
+	}
+`;
+
+export const BoxToggle = styled.div`
+	margin: 0 auto;
+	max-width: 34.7469rem;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+	img {
+		width: 2.8106rem;
+		height: 77px;
+	}
 `;
 
 export const BoxDetail = styled.div`
@@ -43,11 +75,12 @@ export const BoxIcons = styled.div`
 `;
 
 export const BoxResume = styled.div`
-	position: absolute;
-	right: 8.75rem;
 	display: flex;
 	flex-direction: column;
 	gap: 1rem;
+
+	/* position: absolute;
+	right: 0; */
 `;
 
 export const UploadButton = styled.div`
