@@ -8,10 +8,14 @@ export const TimelineContainer = styled.section`
 	width: 100%;
 	text-align: center;
 
+	padding: 0 8rem;
+
 	margin-top: 8.3125rem;
 
 	h1 {
 		padding: 1.75rem;
+		font-weight: 800;
+		font-size: 3rem;
 	}
 `;
 
